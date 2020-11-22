@@ -1,4 +1,4 @@
-README 
+INF224 Alexandre Fournier Montgieux
 
 The graphical interface is the java part and the server is the cpp part.
 To run each part, please go into the two directories and enter make run.
@@ -14,18 +14,18 @@ I went until question eleven for cpp part and did a little of the part 13 (I hav
 we call this methode abstract (for example virtual void play() = 0; is declared abstract).
 It's not possible ton instanciate the multimedia object because the cvlass is an abstract class now.
 
-##Question 5
+## Question 5
 the caracteristic is the polymorphisme . In c++ we have to declare the display ficntion as virtual in the multimedia class. The elecmtn in the array are poointer toward objects because Multimedia is a virtual class.
 Thus it can not be instancianted.
 
-##Question 6 
+## Question 6 
 we can return the array as a const variable. for the setter we have to make a deep copy of the array. 
 
-##Queston 7 
+## Queston 7 
 Every class with pointer or array should be modified and have in the destructor lines in order to delete the pointed objects.
 The object copy must take into account that the pointed objects are not copied. We have to reimplemnt the = operator to make a deep copie.
 
-##question 8
+## question 8
 It must be pointers because we don not want to copy the objects when we make them belong to a group. In java the situation is different as an Object is always a reference.
 
 ##question 10 :To prevent an object to be created outside the table there are two possibilities:
