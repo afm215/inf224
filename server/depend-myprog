@@ -1,0 +1,10 @@
+main.o: main.cpp headers/multimedia.h headers/video.h \
+ headers/multimedia.h headers/photo.h headers/film.h headers/video.h \
+ headers//groupe.h headers//multimedia.h
+multimedia.o: src/multimedia.cpp src/../headers/multimedia.h
+video.o: src/video.cpp src/../headers/video.h src/../headers/multimedia.h
+photo.o: src/photo.cpp src/../headers/photo.h src/../headers/multimedia.h
+film.o: src/film.cpp src/../headers/film.h src/../headers/video.h \
+ src/../headers/multimedia.h
+groupe.o: src/groupe.cpp src/../headers/groupe.h \
+ src/../headers/multimedia.h
