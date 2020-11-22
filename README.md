@@ -1,4 +1,4 @@
-INF224 Alexandre Fournier Montgieux
+# INF224 Alexandre Fournier Montgieux
 
 The graphical interface is the java part and the server is the cpp part.
 To run each part, please go into the two directories and enter make run.
