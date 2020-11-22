@@ -28,7 +28,7 @@ The object copy must take into account that the pointed objects are not copied. 
 ## question 8
 It must be pointers because we do not want to copy the objects when we make them belong to a group. In java the situation is different as an Object is always referenced.
 
-##question 10 :To prevent an object to be created outside the table there are two possibilities:
+## question 10 :To prevent an object to be created outside the table there are two possibilities:
 
 *either adding a pointer toward a Table in the Multimedia class and check if it is null or not 
 
