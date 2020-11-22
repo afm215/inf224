@@ -12,10 +12,10 @@ I went until question eleven for cpp part and did a little of the part 13 (I hav
 
 ## Question 4
 we call this methode abstract (for example virtual void play() = 0; is declared abstract).
-It's not possible ton instanciate the multimedia object because the cvlass is an abstract class now.
+It's not possible ton instanciate the multimedia object because the class is an abstract class now.
 
 ## Question 5
-the caracteristic is the polymorphisme . In c++ we have to declare the display ficntion as virtual in the multimedia class. The elecmtn in the array are poointer toward objects because Multimedia is a virtual class.
+the caracteristic is the polymorphisme . In c++ we have to declare the display fonction as virtual in the multimedia class. The elements in the array are pointers toward objects because Multimedia is a virtual class.
 Thus it can not be instancianted.
 
 ## Question 6 
@@ -26,7 +26,7 @@ Every class with pointer or array should be modified and have in the destructor 
 The object copy must take into account that the pointed objects are not copied. We have to reimplemnt the = operator to make a deep copie.
 
 ## question 8
-It must be pointers because we don not want to copy the objects when we make them belong to a group. In java the situation is different as an Object is always a reference.
+It must be pointers because we do not want to copy the objects when we make them belong to a group. In java the situation is different as an Object is always referenced.
 
 ##question 10 :To prevent an object to be created outside the table there are two possibilities:
 *either adding a pointer toward a Table in the Multimedia class and check if it is null or not 
